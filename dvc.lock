@@ -1,0 +1,10 @@
+schema: '2.0'
+stages:
+  preprocessing:
+    cmd: python preprocessing.py
+  postprocessing:
+    cmd: python postprocessing.py
+  prepare:
+    cmd: python prepare.py
+  train:
+    cmd: python train.py
